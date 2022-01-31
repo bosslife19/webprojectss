@@ -1,0 +1,502 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.nav{
+    height: 40vh;
+    margin: 0px;
+    width: 100%;
+    background-color:  hsl(356, 100%, 66%);
+    border-radius: 0px 0px 0px 50px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 60px;
+}
+.footer-container li{
+    color: white;
+    list-style: none;
+}
+.footer-container a{
+    position: relative;
+    bottom:20px;
+    font-weight: bolder;
+}
+.flex1 img{
+position: absolute;
+left: -260px;
+}
+.flex-container{
+    display: flex;
+}
+footer{
+    background-color: hsl(240, 10%, 16%);
+    height: 40vh;
+    position: relative;
+    top: 500px;
+    border-radius: 0px 50px 0px 0px;
+} 
+footer h2{
+    color: white;
+    padding: 20px;
+}    
+
+
+.flex2{
+    position: relative;
+    top: 300px;
+    right: 90px;
+    width: 70vw;
+}
+.flex2 p{
+    opacity: 0.5;
+}
+.mobile-img1{
+    display: none;
+    
+}
+.mobile-div1{
+    display: none;
+}
+.desktop-div1{
+    background-color:  hsl(237, 23%, 32%)
+    ;
+    height: 55vh;
+    width: 100vw;
+    margin-top: 100px;
+    border-radius: 0px 100px 0px 80px;
+}
+.mobile-div2{
+    display: none;
+}
+.first-div{
+    padding-left: 70px;
+}
+.first-div p{
+    opacity: 0.7;
+}
+.col-md-8{
+    padding-left: 70px;
+}
+.col-md-8 h3{
+    margin-top: 70px;
+    color: white;
+}
+.col-md-8 p{
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.col-md-6 img{
+    position: absolute;
+    bottom: 1px;
+    top: 160px;
+}
+
+.togglers{
+    display: none;
+}
+.mobile-flex{
+    display: none;
+}
+.mobile-show{
+    display: none;
+}
+.container-fluid h1{
+    text-align: center;
+    padding: 50px 0px;
+}
+.brand{
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+.nav-links{
+    display: flex;
+    
+}
+.dropdown{
+    display: none;
+}
+.nav-links li, a  {
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+.nav-links a:hover{
+    background-color: chartreuse;
+}
+.login{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    padding: 20px 30px 0px 0px;
+}
+.login li{
+    list-style: none;
+    
+}
+.login button{
+    border-radius: 40px;
+    background-color: white;
+    
+    
+}
+
+span img{
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+    
+}
+/* .nav-links .connect{
+    
+    position: relative;
+} */
+
+.nav #first-h{
+    position: absolute;
+    left: 400px;
+    top: 90px;
+    color: white;
+}
+.small-text{
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    opacity: 0.5;
+    color: white;
+}
+#buttons{
+    position: absolute;
+    top: 210px;
+    left: 550px;
+    
+}
+#buttons button{
+    border-radius: 20px;
+    
+}
+
+/* medium screens */
+@media (max-width: 1000px){
+    .nav #first-h{
+        position: absolute;
+        left: 200px;
+    }
+    .small-text{
+        position: absolute;
+        left: 250px;
+    }
+    #buttons{
+        position: absolute;
+        left: 305px;
+
+    }
+}
+/* medium screens b */
+@media (max-width: 768px){
+    .nav-links{
+        position: relative;
+        right: 50px;
+        bottom: 5px;
+    }
+    .nav-links a{
+        font-size: 13px;
+    }
+    .connect{
+        display: none;
+    }
+    .col-md-6 img{
+        display: none;
+    }
+}
+@media (max-width: 640px){
+    .nav #first-h{
+        position: absolute;
+        left: 100px;
+    }
+    .small-text{
+        position: absolute;
+        left: 120px;
+    }
+    #buttons{
+        position: absolute;
+        left: 165px;
+
+    }
+}
+/* 500px */
+@media (max-width: 550px){
+.nav-links,#first-h, .nav p{
+    display: none;
+}
+}
+/* mobile view */
+@media(max-width: 385px){
+    
+    #buttons{
+        display: block;
+        
+    }
+    .first-b{
+        position: relative;
+        right: 130px;
+        width: 120px;
+        bottom: 3px;
+        height: 50px;
+    }
+    .second-b{
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        width: 120px;
+        height: 50px;
+        background-color: hsl(356, 100%, 66%);
+    }
+    .nav{
+        width: 100vw;
+        height: 50vh;
+    }
+    .nav .mobile-show, .second-p{
+        display: block;
+    }
+    .mobile-show h1{
+        font-size: 25px;
+        position: absolute;
+        left: 80px;
+        top: 70px;
+        text-align: center;
+        color: white;
+        
+
+    }
+    .mobile-show .second-p{
+        position: absolute;
+        top: 140px;
+        text-align: center;
+        right: 80px;
+        color: white;
+        font-weight: lighter;
+    }
+    .togglers{
+        display: block;
+        height:10px;
+        
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    
+    }
+    .toggler1, .toggler2, .toggler3{
+    background-color: white;
+    width: 25px;
+    margin: 3px;
+    height: 2px;
+    
+
+
+    }
+    .connect{
+        display: block;
+    }
+
+    .login li{
+        position: relative;
+        top: 700px;
+        
+    }
+    .login button{
+        position: relative;
+        top: 160px;
+        right: 20px;
+        
+    }
+    
+    .nav-links{
+        display: block;
+        position: absolute;
+        top: 10vh;
+        height: 45vh;
+        background-color: white;
+        z-index: 5;
+        width: 90vw;
+        left: 15px;
+        border-radius: 10px;
+        text-align: center;
+        opacity: 0;
+        
+        
+    }
+    .login {
+        
+        z-index: 5;
+        position: relative;
+        top: 30px;
+        left: 130px;
+        display: none;
+        
+
+    }
+    .nav-links a{
+        font-size: 20px;
+    }
+    .nav-links a, img{
+        z-index: 6;
+        color: black;
+    }
+    .active{
+        display: block;
+    }
+    
+    .dropdown{
+        background-color: lightgrey;
+        height: 200px;
+        margin-top: 40px;
+        position: relative;
+        z-index: 100;
+        display: block;
+        top: 180px;
+        width: 60vw;
+        right: 50px;
+        text-align: center;
+        display: none;
+        right: 100px;
+        border-radius: 10px;
+        
+    }
+    .dropdown .link1, .link2, .link3{
+        cursor: pointer;
+    }
+    .dropdown div{
+        padding: 20px 0px;
+
+    }
+    .dropdown div:hover{
+        background-color: darkcyan;
+    }
+    .active{
+        display: block;
+    }
+    .transform{
+        transform: rotate(180deg);
+    }
+        
+    .show{
+        opacity: 1;
+    }
+    .close .toggler1{
+        transform: rotate(45deg) translateY(7px);
+    }
+    .close .toggler2{
+        opacity: 0;
+    }
+    .close .toggler3{
+        transform: rotate(-45deg) translateY(-7px);
+    }
+   .move{
+       transform: translateX(100%);
+   }
+   .first-div{
+    display: none;
+}
+.first-div p{
+    display: none;
+}
+.col-md-6 img{
+    display: none;
+}   
+.mobile-img1{
+    display: block;
+}
+.mobile-div1{
+    display: block;
+    text-align: center;
+}
+.mobile-div1 p{
+    opacity: 0.5;
+}
+.desktop-div1{
+    display: none;
+}
+.mobile-div2{
+    display: block;
+    background-color:  hsl(237, 23%, 32%);
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    top:250px;
+    border-radius: 0px 130px 0px 50px;
+}
+.mobile-div2 h3{
+    position: relative;
+    bottom:220px;
+    left: 100px;
+    color: white;
+}
+.mobile-div2 p{
+    position: relative;
+    bottom: 200px;
+    left: 80px;
+    color: white;
+    
+    font-size: 13px;
+}
+.mobile-div2 img{
+    position: relative;
+    bottom: 250px;
+    right: 24px;
+}
+.flex-container{
+    display: none;
+}
+.mobile-flex{
+    display: block;
+    position: relative;
+    top: 250px;
+}
+/* .mobile-flex h3,.mobile-flex p{
+    /* text-align: center; */
+
+.mobile-flex p{
+    opacity: 0.7;
+}
+.footer-container{
+    flex-direction: column;
+    position: relative;
+    right: 20px;
+    align-items: center;
+}
+footer{
+    height: 80vh;
+}
+footer h2{
+    text-align: center;
+}
+.footer-container li{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+ .footer-container a{
+     position: relative;
+     top: -4px;
+     left:15px;
+ }   
+ 
+}      
+
+        
+    
+
+
+
+
+    
+    
+

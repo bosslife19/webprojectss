@@ -1,0 +1,165 @@
+/* mobile view */
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+@media(max-width: 380px){
+button.navbar-toggler{
+    position: relative;
+    right: 150px;
+    margin-bottom: 10px;
+    
+
+    
+    border: none;
+    
+}
+.navbar-brand{
+    position: relative;
+    left: 50px;
+    top: 67px;
+}
+.noAppear{
+    display: none;
+}
+.desk-text{
+    display: none;
+}
+#mob-span{
+    position: relative;
+    left: 300px;
+    bottom: 26px;
+}
+#mob-p{
+    width: 100%;
+    background-color: hsl(223, 64%, 98%); 
+    height: 50px;
+    border:aliceblue solid;
+    border-radius: 10px;
+
+}
+button{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    right: 30px;
+}
+/* /*normal view */
+.navbar-nav{
+    position: relative;
+    left: 70px;
+    color:  hsl(223, 64%, 98%);
+    font-size: 13px;
+}
+
+span img{
+    width: 35px;
+    position: relative;
+    left: 750px;
+    top: 10px;
+}
+/* .cart{ */
+    position: relative;
+    left:700px;
+    top: 10px;
+}
+#mee{
+    margin-left: 60px;
+    background-color: hsl(25, 100%, 94%);
+    color:  hsl(26, 100%, 55%);
+}
+#javboy{
+    color: blue;
+}
+.img-slider{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.slider{
+    animation: sliding;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    
+    display: flex;
+    width: 100%
+    
+    
+}
+@keyframes sliding {
+    0%{transform: translateX(-0%);
+
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(-100%)
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    60%{
+        transform: translateX(-200%);
+    }
+    70%{
+        transform: translateX(-300%);
+    }
+    80%{
+        transform: translateX(-300%)
+    }
+    90%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(-400%)
+    }
+}
+
+
+
+/* desktop view */
+@media (min-width: 1000px){
+    .desk{
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+    .mt-5{
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .mob-text{
+        display: none;
+    }
+    #mob-p{
+        background-color: hsl(223, 64%, 98%); 
+        width: 100px; 
+        height:40px;
+        border:aliceblue solid;
+        border-radius: 10px;
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        background-color: hsl(26, 100%, 55%);
+        color: white;
+        border-radius: 10px;
+        position: relative;
+        bottom: 55px;
+        left: 130px;
+    }
+    #icon{
+        position: relative;
+        left: 400px;
+    }
+    
+}
+

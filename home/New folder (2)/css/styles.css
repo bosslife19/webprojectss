@@ -1,0 +1,71 @@
+body{background-color: hsl(226, 43%, 10%); font-family: 'Rubik', sans-serif;}
+
+.first{background-color:hsl(246, 80%, 60%); margin-top:30px; width:100%; border-radius: 8px; height:150px;font-size:18px;position:relative;  }
+
+.para{position:relative;bottom:35px; font-size:20px; left:49px;}
+
+.second{background-color:rgb(28, 31, 74); width:100%; height:60px;
+position:relative; bottom:14px; border-radius: 13px;}
+
+.third{background-color:  hsl(15, 100%, 70%); font-size:18px; 
+height:120px;width:100%; position:relative; left:1px; border-radius:8px; font-size: 18px; }
+.work{background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;
+
+}
+.menu1::after{ content: '\2026'; font-size: 25px; color: #D0D0D0;
+position:relative; left:220px;}
+
+.fourth{background-color:hsl(195, 74%, 62%); width:100%; height:120px; border-radius:8px; font-size:18px;}
+.play{ background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;}
+.menu2::after{content: '\2026'; font-size: 25px; color: #D0D0D0;
+    position:relative; left:230px;}
+
+
+    .fifth{background-color:hsl(348, 100%, 68%); width:100%; height:120px; border-radius:8px; font-size:18px;position:relative; top:30px;}
+    .study{ background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;}
+    .menu3::after{content: '\2026'; font-size: 25px; color: #D0D0D0;
+        position:relative; left:0px;}
+    
+        .sixth{background-color:hsl(145, 58%, 55%); width:100%; height:120px; border-radius:8px; font-size:18px;position:relative; top:30px;}
+    .exercise{ background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;}
+    .menu3::after{content: '\2026'; font-size: 25px; color: #D0D0D0;
+        position:relative; left:200px;}
+
+        .seventh{background-color: hsl(264, 64%, 52%); width:100%; height:120px; border-radius:8px; font-size:18px;position:relative; top:30px;}
+         .social{ background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;}
+    .menu4::after{content: '\2026'; font-size: 25px; color: #D0D0D0;
+        position:relative; left:220px;}
+
+        .eighth{background-color: hsl(43, 84%, 65%); width:100%; height:120px; border-radius:8px; font-size:18px;position:relative; top:30px;}
+        .self-care{ background-color:rgb(28, 31, 74); height:90px; position:relative; top:30px; border-radius: 8px;}
+        .menu5::after{content: '\2026'; font-size: 25px; color: #D0D0D0;
+            position:relative; left:200px;}
+        /* media queries */
+       @media(min-width:100px){
+           .first{
+               width:25%
+           }
+       }
+        
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
